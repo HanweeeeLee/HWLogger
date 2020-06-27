@@ -1,0 +1,142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HWLogLevel"
+- "HWLogger"
+provides-nominal:
+- "8HWLogger10HWLogLevelO"
+- "8HWLoggerAAC"
+provides-member:
+- ["8HWLogger10HWLogLevelO", ""]
+- ["8HWLoggerAAC", ""]
+provides-dynamic-lookup:
+- "initSetting"
+- "logFileDeletionCycle"
+- "logFilePath"
+- "logLevel"
+- "sendAllLogToServer"
+- "sharedInstance"
+- "wrtieLog"
+depends-top-level:
+- "=="
+- "FloatLiteralType"
+- "HWLogLevel"
+- "HWLogger"
+- "Int"
+- "IntegerLiteralType"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["s7CVarArgP", "HWLogger"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "initSetting"]
+- ["s28CustomDebugStringConvertibleP", "HWLogger"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "initSetting"]
+- ["s23CustomStringConvertibleP", "HWLogger"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "initSetting"]
+- ["SQ", "=="]
+- ["SQ", "HWLogger"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "info"]
+- ["SQ", "init"]
+- ["SQ", "initSetting"]
+- ["8HWLogger10HWLogLevelO", "=="]
+- ["8HWLogger10HWLogLevelO", "__derived_enum_equals"]
+- ["8HWLogger10HWLogLevelO", "_rawHashValue"]
+- ["8HWLogger10HWLogLevelO", "debug"]
+- ["8HWLogger10HWLogLevelO", "deinit"]
+- ["8HWLogger10HWLogLevelO", "error"]
+- ["8HWLogger10HWLogLevelO", "fatalError"]
+- ["8HWLogger10HWLogLevelO", "hash"]
+- ["8HWLogger10HWLogLevelO", "hashValue"]
+- ["8HWLogger10HWLogLevelO", "info"]
+- ["8HWLogger10HWLogLevelO", "warning"]
+- ["8HWLoggerAAC", "HWLogLevel"]
+- ["8HWLoggerAAC", "HWLogger"]
+- ["8HWLoggerAAC", "Int"]
+- ["8HWLoggerAAC", "String"]
+- ["8HWLoggerAAC", "deinit"]
+- ["8HWLoggerAAC", "init"]
+- ["8HWLoggerAAC", "initSetting"]
+- ["8HWLoggerAAC", "logFileDeletionCycle"]
+- ["8HWLoggerAAC", "logFilePath"]
+- ["8HWLoggerAAC", "logLevel"]
+- ["8HWLoggerAAC", "sendAllLogToServer"]
+- ["8HWLoggerAAC", "sharedInstance"]
+- ["8HWLoggerAAC", "wrtieLog"]
+- ["SH", "=="]
+- ["SH", "HWLogger"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "info"]
+- ["SH", "init"]
+- ["SH", "initSetting"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSObjectC", "HWLogLevel"]
+- ["So8NSObjectC", "HWLogger"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initSetting"]
+- ["So8NSObjectC", "logFileDeletionCycle"]
+- ["So8NSObjectC", "logFilePath"]
+- ["So8NSObjectC", "logLevel"]
+- ["So8NSObjectC", "sendAllLogToServer"]
+- ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "wrtieLog"]
+- ["So8NSObjectP", "HWLogger"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "initSetting"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "HWLogger"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "initSetting"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "HWLogger"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initSetting"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "8HWLogger10HWLogLevelO"
+- "8HWLoggerAAC"
+- "SH"
+- !private "s6HasherV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/hanwelee/Desktop/Test/HWLogger/HWLogger/HWLogger.h"
+- "/Users/hanwelee/Desktop/Test/HWLogger/build/HWLogger.build/Debug-iphoneos/HWLogger.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "97ce1edb6cbcaf0031f4f0eed1a1276a"

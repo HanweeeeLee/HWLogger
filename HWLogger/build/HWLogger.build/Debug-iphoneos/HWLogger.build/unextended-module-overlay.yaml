@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/hanwelee/Library/Developer/Xcode/DerivedData/HWLogger-dganxiksfaupqafpmrgkjlzqgcmg/Build/Products/Debug-iphoneos/HWLogger.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/hanwelee/Desktop/Test/HWLogger/build/HWLogger.build/Debug-iphoneos/HWLogger.build/unextended-module.modulemap",
+    }]
+  }]
+}

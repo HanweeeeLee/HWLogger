@@ -1,0 +1,10 @@
+framework module HWLogger {
+  umbrella header "HWLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module HWLogger.__Swift {
+    exclude header "HWLogger-Swift.h"
+}

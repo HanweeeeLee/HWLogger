@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "71df23237fbc6ddcc1a9ea50d7fc6bbd"
+build_time: [1593154800, 760215000]
+inputs:
+  "/Users/hanwelee/Desktop/Test/HWLogger/HWLogger/HWLogger.swift": !dirty [1593154794, 364153598]
