@@ -25,6 +25,8 @@
 		4F541BB924A45C9A00432217 /* HWLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F541BB824A45C9A00432217 /* HWLoggerTests.swift */; };
 		4F541BBB24A45C9A00432217 /* HWLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F541BAD24A45C9A00432217 /* HWLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FB230C424A5CF340050D716 /* HWLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB230C324A5CF340050D716 /* HWLogger.swift */; };
+		789C454124D039F900826050 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C454024D039F900826050 /* StringExtension.swift */; };
+		789C454324D03A0200826050 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C454224D03A0200826050 /* DataExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4F541C1F24A479C800432217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		4F541C2124A479C800432217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB230C324A5CF340050D716 /* HWLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWLogger.swift; sourceTree = "<group>"; };
+		789C454024D039F900826050 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		789C454224D03A0200826050 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		4F541BAC24A45C9A00432217 /* HWLogger */ = {
 			isa = PBXGroup;
 			children = (
+				789C453F24D039EA00826050 /* Extension */,
 				4F541BAD24A45C9A00432217 /* HWLogger.h */,
 				4F541BAE24A45C9A00432217 /* Info.plist */,
 				4FB230C324A5CF340050D716 /* HWLogger.swift */,
@@ -117,6 +122,15 @@
 				4F541C2124A479C800432217 /* Info.plist */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		789C453F24D039EA00826050 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				789C454024D039F900826050 /* StringExtension.swift */,
+				789C454224D03A0200826050 /* DataExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789C454124D039F900826050 /* StringExtension.swift in Sources */,
+				789C454324D03A0200826050 /* DataExtension.swift in Sources */,
 				4FB230C424A5CF340050D716 /* HWLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
